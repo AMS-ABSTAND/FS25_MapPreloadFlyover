@@ -30,6 +30,7 @@ preloadMapShaders 260 180 240 true
         ]]></de>
     </description>
     <version>1.0.0.0</version>
+    <iconFilename>icon.png</iconFilename>
     <multiplayer supported="true"/>
 
     <extraSourceFiles>

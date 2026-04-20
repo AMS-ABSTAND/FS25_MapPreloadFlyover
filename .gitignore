@@ -1,5 +1,6 @@
 *.zip
 *.bak
+make_icon.py
 *.tmp
 .DS_Store
 Thumbs.db

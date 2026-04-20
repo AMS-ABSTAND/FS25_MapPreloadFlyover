@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="96">
+    <author>ABSTAND/author>
+    <title>
+        <en>Map Preload Flyover</en>
+        <de>Map Preload Flyover</de>
+    </title>
+    <description>
+        <en><![CDATA[
+Starts an automatic flyover over the whole map to force textures, assets and shaders to render once.
+
+Console commands:
+preloadMapShaders [spacing] [height] [speed] [restore]
+preloadMapShadersStop
+
+Examples:
+preloadMapShaders
+preloadMapShaders 260 180 240 true
+        ]]></en>
+        <de><![CDATA[
+Startet einen automatischen Flyover ueber die ganze Map, damit Texturen, Assets und Shader einmal gerendert werden.
+
+Konsolenbefehle:
+preloadMapShaders [spacing] [height] [speed] [restore]
+preloadMapShadersStop
+
+Beispiele:
+preloadMapShaders
+preloadMapShaders 260 180 240 true
+        ]]></de>
+    </description>
+    <version>1.0.0.0</version>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua"/>
+    </extraSourceFiles>
+</modDesc>

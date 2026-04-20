@@ -44,7 +44,7 @@ preloadMapShaders 260 180 240 true
 
 ## Known limitations
 
-- Singleplayer only. Multiplayer is explicitly unsupported.
+- Multiplayer should work in principle (flyover is client-local), but is **untested**. Use at your own risk on MP servers.
 - Leave your vehicle before starting — the flyover takes over the local player camera.
 
 ## License
